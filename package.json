@@ -1,0 +1,26 @@
+{
+  "name": "climate_change_api",
+  "version": "1.0.0",
+  "description": "Trying to work along with the Ania Kubow(Youtuber) to create a climate change API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Som23Git/Climate_Change_API.git"
+  },
+  "author": "Som Ft. Ania Kubow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Som23Git/Climate_Change_API/issues"
+  },
+  "homepage": "https://github.com/Som23Git/Climate_Change_API#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cross-fetch": "^3.1.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -51,10 +51,15 @@ app.get('/', (req,res) => {
 
 app.get('/news', (req,res) => {
    res.json(articles);
-})
+});
 
 app.get('/news/:newspaperId', async(req,res) => {
-    console.log(req)
-})
+    const newspaperId = req.params.newspaperId
+
+    const newspaperAddress = newspapers.filter(newspaper => newspaper.name == newspaperId)[0].address
+    console.log(newspaperAddress)
+
+    //axios.get()
+});
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`));
